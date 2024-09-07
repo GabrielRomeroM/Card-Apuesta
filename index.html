@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section id="cards">
+        <h2>Apuestas</h2>
+        <div id="cards-container">
+        </div>
+        <div id="cards-form-container">
+            <h3>Crea tu apesta</h3>
+            <form id="card-form">
+                <label for="card-sport">Deporte:</label>
+                <input type="text" id="card-sport" name="card-sport" required>
+                <br>
+                <label for="card-bet">Tipo de apuesta:</label>
+                <input type="text" id="card-bet" name="card-bet" required>
+                <br>
+                <label for="card-description">Monto de tu apuesta:</label>
+                <input type="text" id="card-description" value="" name="card-description" placeholder="Monto maximo 10" required>
+                <br>
+                <label for="card-
+                multiply">Multiplica tu apuesta:</label>
+                <button type="button" value="X2" id="card-multiply-X2">X2</button>
+                <button type="button" value="X3" id="card-multiply-X3">X3</button>
+                <button type="button" value="X4" id="card-multiply-X4">X4</button>
+                <br>
+                <h4>Personalizacion</h4>
+                <label for="card-bg-color">Color de fondo</label>
+                <input type="color" id="card-bg-color" name="card-bg-color" value="#ffffff">
+                <br>
+                <label for="card-border-color">Color del borde</label>
+                <input type="color" id="card-border-color" name="card-border-color" value="#000000">
+                <br>
+                <button type="submit">Ver apuesta</button>
+            </form>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
